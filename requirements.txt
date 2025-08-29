@@ -1,3 +1,6 @@
 # Requirements for API testing framework with requests, pytest, and reporting
 requests==2.31.0
-pytest==7.4.0
+pytest==7.4.3
+pytest-html==4.1.1
+jsonschema==4.21.1
+
