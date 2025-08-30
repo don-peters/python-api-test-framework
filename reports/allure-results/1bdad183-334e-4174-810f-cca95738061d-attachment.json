@@ -1,0 +1,8 @@
+{
+  "schema": "user",
+  "error": "'username' is a required property\n\nFailed validating 'required' in schema:\n    {'type': 'object',\n     'properties': {'id': {'type': 'integer', 'minimum': 1},\n                    'name': {'type': 'string', 'minLength': 1},\n                    'username': {'type': 'string', 'minLength': 1},\n                    'email': {'type': 'string', 'format': 'email'},\n                    'address': {'type': 'object',\n                                'properties': {'street': {'type': 'string'},\n                                               'suite': {'type': 'string'},\n                                               'city': {'type': 'string'},\n                                               'zipcode': {'type': 'string'},\n                                               'geo': {'type': 'object',\n                                                       'properties': {'lat': {'type': 'string'},\n                                                                      'lng': {'type': 'string'}}}}},\n                    'phone': {'type': 'string'},\n                    'website': {'type': 'string'},\n                    'company': {'type': 'object',\n                                'properties': {'name': {'type': 'string'},\n                                               'catchPhrase': {'type': 'string'},\n                                               'bs': {'type': 'string'}}}},\n     'required': ['id', 'name', 'username', 'email'],\n     'additionalProperties': True}\n\nOn instance:\n    {'id': 1, 'name': 'Test User'}",
+  "failed_data": {
+    "id": 1,
+    "name": "Test User"
+  }
+}
