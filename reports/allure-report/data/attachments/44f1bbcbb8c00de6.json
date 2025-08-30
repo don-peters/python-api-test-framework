@@ -1,0 +1,10 @@
+{
+  "schema": "user",
+  "error": "'not_an_integer' is not of type 'integer'\n\nFailed validating 'type' in schema['properties']['id']:\n    {'type': 'integer', 'minimum': 1}\n\nOn instance['id']:\n    'not_an_integer'",
+  "failed_data": {
+    "id": "not_an_integer",
+    "name": "Test User",
+    "username": "testuser",
+    "email": "test@example.com"
+  }
+}

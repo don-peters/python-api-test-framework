@@ -1,0 +1,10 @@
+{
+  "schema": "user",
+  "error": "123 is not of type 'string'\n\nFailed validating 'type' in schema['properties']['email']:\n    {'type': 'string', 'format': 'email'}\n\nOn instance['email']:\n    123",
+  "failed_data": {
+    "id": 1,
+    "name": "Test User",
+    "username": "testuser",
+    "email": 123
+  }
+}
