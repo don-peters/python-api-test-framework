@@ -1,1 +1,0 @@
-✓ Data matches user_partial schema
